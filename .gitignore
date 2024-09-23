@@ -1,0 +1,7 @@
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+derby.log
+derbyDB
+.idea/
+.DS_Store
