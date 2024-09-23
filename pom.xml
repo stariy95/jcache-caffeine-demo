@@ -15,7 +15,7 @@
         <cayenne.version>4.2.1</cayenne.version>
         <caffeine.version>3.1.8</caffeine.version>
         <derby.version>10.17.1.0</derby.version>
-        <slf4j.vercion>1.7.36</slf4j.vercion>
+        <slf4j.version>1.7.36</slf4j.version>
         <main.class>org.apache.cayenne.demo.jcache.Main</main.class>
     </properties>
 
@@ -50,7 +50,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.vercion}</version>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
