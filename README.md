@@ -16,6 +16,15 @@ Just add `cayenne-jcache` module to your project, see [`pom.xml`](https://github
 </dependency>
 ```
 
+And provide cache configuration:
+
+```java
+ServerRuntime.builder()
+    //...
+    .addModule(b -> JCacheModule.contributeJCacheProviderConfig(b, "classpath:cache.conf"))
+    //...
+```
+
 ## Caffeine Configuration
 
 See [`cache.conf`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/resources/cache.conf) file for the config example,
