@@ -6,5 +6,5 @@ This demo uses [Caffeine](https://github.com/ben-manes/caffeine) as a JCache imp
 
 ## Caffeine Configuration
 
-See [`cache.conf`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/src/main/resources/cache.conf) file for the config example,
+See [`cache.conf`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/resources/cache.conf) file for the config example,
 [`Main.java`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/java/org/apache/cayenne/demo/jcache/Main.java) contains code that demonstrates how to use it.  
