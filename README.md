@@ -1,10 +1,10 @@
 # Cayenne JCache Demo
 
-A small demo showcasing JCache Cayenne module usage.
+A small demo showcasing [JCache Cayenne module](https://cayenne.apache.org/docs/4.2/cayenne-guide/#ext-jcache) usage.
 
-This demo uses Caffeine as a JCache implementation.
+This demo uses [Caffeine](https://github.com/ben-manes/caffeine) as a JCache implementation.
 
 ## Caffeine Configuration
 
-See `src/main/resources/cache.conf` file for the config example,
-`src/main/java/org/apache/cayenne/demo/jcache/Main.java` contains code that demonstrates how to use it.  
+See [`cache.conf`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/src/main/resources/cache.conf) file for the config example,
+[`Main.java`](https://github.com/stariy95/jcache-caffeine-demo/blob/master/src/main/java/org/apache/cayenne/demo/jcache/Main.java) contains code that demonstrates how to use it.  
